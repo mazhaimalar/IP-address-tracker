@@ -1,0 +1,37 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "uses api to track the the geolocation of ip addresss ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mazhaimalar/IP-address-tracker.git"
+  },
+  "keywords": [
+    "api",
+    "geolocation",
+    "ip",
+    "address",
+    "track"
+  ],
+  "author": "gayathri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazhaimalar/IP-address-tracker/issues"
+  },
+  "homepage": "https://github.com/mazhaimalar/IP-address-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquerry": "0.0.1-security",
+    "mdb-ui-kit": "^3.8.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

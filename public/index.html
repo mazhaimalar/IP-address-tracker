@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- fas fa icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- link to style.scss -->
+  <link rel="stylesheet" href="css/style/style.css">
+ 
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+rel="stylesheet"
+/>
+  
+</head>
+<body>
+
+ 
+       <div class="container">
+         <!-- hero space -->
+         <div class="hero">
+           
+           <h1>Ip Address Tracker</h1>
+
+           <div class="input-group">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" />
+              <label class="form-label" for="form1"></label>
+            </div>
+            <button type="button" id="search" class="btn btn-primary">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+         </div>
+         <!-- input search space -->
+       
+
+        <!-- output display space  -->
+        <div class="card" >
+            
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">IP ADDRESS <p class ="space " id = "ip"></p></li>
+                <li class="list-group-item  center">LOCATION   <p class ="space " id="location"></p></li>
+                <li class="list-group-item">TIMEZONE   <p class ="space " id="timeZone"></p></li>
+                <li class="list-group-item">ISP        <p class ="space " id="isp"></p></li>
+              </ul>                                                                             
+            </div>
+               </div>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="Js/getrequest.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div> -->
