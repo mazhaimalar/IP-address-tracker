@@ -101,14 +101,17 @@
 // @import ' ../../node_modules/mdb-ui-kit/src/scss/free/carousel';
 $primary : hsl(0, 0%, 59%);
 
-
+//making container stretch on both sides
+.container {
+    padding: 0px !important;
+}
 
 // output card
 .card {
     background-color: rgb(52, 156, 52);
     width: 70vw;
     position: relative;
-    top: -6em;
+    top: -45em;
     left: 50%;
     transform: translateX(-50%);
     border: black 2px solid;
@@ -134,8 +137,9 @@ $primary : hsl(0, 0%, 59%);
 
 .space {
 
-    padding: 50px 0 50px 0;
+    padding: 15px 0 15px 0;
     font-weight: 800;
+    background: white;
 
 }
 
@@ -158,6 +162,7 @@ $primary : hsl(0, 0%, 59%);
     justify-content: center;
 
     h1 {
+        text-align: center;
         width: 9em;
         margin: auto;
         padding-top: 50px;
@@ -171,6 +176,7 @@ $primary : hsl(0, 0%, 59%);
     .input-group {
         width: 18em;
         margin: auto;
+        justify-content: center;
 
         input {
             background-color: white;
@@ -178,4 +184,17 @@ $primary : hsl(0, 0%, 59%);
     }
 
 
+}
+
+#map {
+
+    height: 100vh;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }

@@ -9930,11 +9930,14 @@ input[type='file'].form-control.is-invalid:focus-within ~ .form-file-label .form
   box-shadow: none;
   appearance: none; }
 
+.container {
+  padding: 0px !important; }
+
 .card {
   background-color: #349c34;
   width: 70vw;
   position: relative;
-  top: -6em;
+  top: -45em;
   left: 50%;
   transform: translateX(-50%);
   border: black 2px solid; }
@@ -9948,8 +9951,9 @@ input[type='file'].form-control.is-invalid:focus-within ~ .form-file-label .form
   src: url("../../fonts/static/Rubik-Medium.ttf") format("truetype"); }
 
 .space {
-  padding: 50px 0 50px 0;
-  font-weight: 800; }
+  padding: 15px 0 15px 0;
+  font-weight: 800;
+  background: white; }
 
 .list-group-item {
   text-align: center;
@@ -9962,6 +9966,7 @@ input[type='file'].form-control.is-invalid:focus-within ~ .form-file-label .form
   height: 40vh;
   justify-content: center; }
   .hero h1, .hero .h1 {
+    text-align: center;
     width: 9em;
     margin: auto;
     padding-top: 50px;
@@ -9970,6 +9975,17 @@ input[type='file'].form-control.is-invalid:focus-within ~ .form-file-label .form
 
 .hero .input-group {
   width: 18em;
-  margin: auto; }
+  margin: auto;
+  justify-content: center; }
   .hero .input-group input {
     background-color: white; }
+
+#map {
+  height: 100vh; }
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
